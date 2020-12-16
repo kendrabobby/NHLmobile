@@ -7,7 +7,7 @@ ArticlesTab <- f7Tab(
   f7ExpandableCard(
     id = "card_3",
     title = "CARD TITLE",
-    img = "mav2.jpg",
+    img = "mav2.JPG",
     htmltools::div(
       h4("MAJOR HEADLINE"), 
       "other text", 
@@ -24,7 +24,7 @@ ArticlesTab <- f7Tab(
   f7ExpandableCard(
     id = "card_2",
     title = "CARD TITLE",
-    img = "mav_test.jpg",
+    img = "mav_test.JPG",
     htmltools::div(
       h4("MAJOR HEADLINE"), 
       "other text", 
@@ -41,7 +41,7 @@ ArticlesTab <- f7Tab(
   f7ExpandableCard(
     id = "card_1",
     title = "CARD TITLE",
-    img = "mav_test.jpg",
+    img = "mav2.JPG",
     art_01
   )
 )

@@ -5,7 +5,7 @@ HomeTab <- f7Tab(
   f7ExpandableCard(
     id = "card_featured",
     title = "BREAKING TRADE - 12/15/2020",
-    img = "mav_test.jpg",
+    img = "mav_test.JPG",
     htmltools::div(
       h4("BREAKING: Nick Gregorchik and Mike Bucklaw have struck a trade."), 
       "Kevin Shattenkirk <-> Phil Kessel and Neal Pionk", 

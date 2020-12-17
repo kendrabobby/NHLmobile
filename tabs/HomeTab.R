@@ -4,8 +4,8 @@ HomeTab <- f7Tab(
   f7BlockTitle(title = "Featured Article") %>% f7Align(side = "left"),
   f7ExpandableCard(
     id = "card_featured",
-    title = "BREAKING TRADE - 12/15/2020",
-    img = "mav_test.JPG",
+    title = "BREAKING TRADE",
+    img = "mav_test.jpg",
     htmltools::div(
       h4("BREAKING: Nick Gregorchik and Mike Bucklaw have struck a trade."), 
       "Kevin Shattenkirk <-> Phil Kessel and Neal Pionk", 
@@ -23,43 +23,45 @@ HomeTab <- f7Tab(
         id = "season_progress",
         type  = "semicircle",
         value = 10,
+        size = 325,
         borderColor = "#293ED5",
         borderWidth = 10,
         valueFontSize = 41,
         valueTextColor = "#293ED5"
       )
   ),
+  br(),
   
   f7BlockTitle(title = "Upcoming Events") %>% f7Align(side = "left"),
   f7Timeline(
-    sides = TRUE,
+    sides = FALSE,
     f7TimelineItem(
       "Fantasy Draft",
-      date = "19 Dec",
+      date = "20 Dec",
       card = TRUE,
-      time = "6:00pm",
+      time = "8:00pm",
       title = "",
       subtitle = "",
       side = "left"
     ),
     f7TimelineItem(
       date = "24 Dec",
-      card = FALSE,
+      card = TRUE,
       "Christmas Eve"
     ),
     f7TimelineItem(
       date = "25 Dec",
-      card = FALSE,
+      card = TRUE,
       "Christmas Day"
     ),
     f7TimelineItem(
       date = "31 Dec",
-      card = FALSE,
+      card = TRUE,
       "New Year's Eve"
     ),
     f7TimelineItem(
       date = "01 Jan",
-      card = FALSE,
+      card = TRUE,
       "New Year's Day"
     ),
     f7TimelineItem(
@@ -71,21 +73,4 @@ HomeTab <- f7Tab(
     )
   )
   
-  # # media card
-  # f7BlockTitle(title = "f7MediaCard") %>% f7Align(side = "left"),
-  # f7Card(
-  #   title = "Card with soundcloud link",
-  #   
-  #   f7List(
-  #     mode = "media",
-  #       f7ListItem(
-  #         title = "JUICE",
-  #         subtitle = "WRLD",
-  #         "some text about this soundcloud link",
-  #         media = tags$img(src = "https://picsum.photos/200"),
-  #         right = "Right Text",
-  #         url = "https://soundcloud.com/uiceheidd/real-shit-with-benny-blanco"
-  #       )
-  #     )
-  # )
 )

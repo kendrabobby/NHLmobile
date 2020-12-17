@@ -3,11 +3,10 @@ ArticlesTab <- f7Tab(
   icon = f7Icon("text_quote"),
   
   
-  f7BlockTitle(title = "Most recent article") %>% f7Align(side = "left"),
   f7ExpandableCard(
     id = "card_3",
     title = "CARD TITLE",
-    img = "mav2.JPG",
+    img = "mav2.jpg",
     htmltools::div(
       h4("MAJOR HEADLINE"), 
       "other text", 
@@ -20,11 +19,10 @@ ArticlesTab <- f7Tab(
     )
   ),
   
-  f7BlockTitle(title = "Next article") %>% f7Align(side = "left"),
   f7ExpandableCard(
     id = "card_2",
     title = "CARD TITLE",
-    img = "mav_test.JPG",
+    img = "mav_test.jpg",
     htmltools::div(
       h4("MAJOR HEADLINE"), 
       "other text", 
@@ -37,11 +35,10 @@ ArticlesTab <- f7Tab(
     )
   ),
   
-  f7BlockTitle(title = "Next article") %>% f7Align(side = "left"),
   f7ExpandableCard(
     id = "card_1",
     title = "CARD TITLE",
-    img = "mav2.JPG",
+    img = "mav2.jpg",
     art_01
   )
 )

@@ -3,7 +3,7 @@
   "short_name": "VHL App",
   "description": "VHL App",
   "lang": "en-US",
-  "start_url": "https://kendra-bobby.shinyapps.io/NHLmobile",
+  "start_url": "https://kendra-bobby.shinyapps.io/VHL-test/",
   "display": "standalone",
   "icons": [
     {

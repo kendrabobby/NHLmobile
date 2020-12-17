@@ -10,25 +10,109 @@ f7Page(
     filled = FALSE,
     hideNavOnPageScroll = FALSE,
     hideTabsOnPageScroll = FALSE,
-    # serviceWorker = "service-worker.js",
     iosTranslucentBars = FALSE,
     pullToRefresh = FALSE
   ),
   f7TabLayout(
-    # appbar = f7Appbar(
-    #   f7Flex(f7Back(targetId = "tabset"), f7Next(targetId = "tabset"))
-    # ),
-   # messagebar = f7MessageBar(inputId = "mymessagebar", placeholder = "Message"),
     panels = tagList(
       f7Panel(
         inputId = "panelLeft",
-        "item 1",
-        "item 2",
-        "item 3",
-        title = "Left Panel",
+        title = "",
         side = "left",
-        theme = "light",
+        theme = "dark",
+        htmltools::div(
+          h2("About VHL"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum", 
+          h2("Meet the League"),
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum",
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum",
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum",
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum",
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum",
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum",
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum",
+          h4("Mike"),
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum"
+        ),
         effect = "reveal"
+      ),
+      f7Panel(
+        title = "",
+        side = "right",
+        theme = "dark",
+        htmltools::div(
+          "Review source code at:",
+          f7Link(src = "https://github.com/kendrabobby/NHLmobile",
+                 label = "https://github.com/kendrabobby/NHLmobile",
+                 external = TRUE),
+          "Report bugs at:",
+          f7Link(src = "https://github.com/kendrabobby/NHLmobile/issues",
+                 label = "https://github.com/kendrabobby/NHLmobile/issues",
+                 external = TRUE),
+          h6("Developed and maintained by Kendra Bobby")
+          ),
+        effect = "cover"
       )
     ),
     navbar = f7Navbar(
@@ -46,7 +130,9 @@ f7Page(
       animated = FALSE,
       swipeable = TRUE,
       HomeTab,
-      ArticlesTab
+      ArticlesTab,
+      ChampsTab,
+      PodcastTab
       )
   )
 )

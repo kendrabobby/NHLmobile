@@ -1,5 +1,6 @@
 f7Page(
-    title = "VHL",
+    title = "test",
+    manifest = "manifest.json",
     init = f7Init(
         skin = "auto",
         theme = "dark",
@@ -35,7 +36,7 @@ f7Page(
             )
         ),
         navbar = f7Navbar(
-            title = "Vargas Hockey League",
+            title = "Test app",
             subtitle = "",
             hairline = TRUE,
             shadow = TRUE,

@@ -4,41 +4,16 @@ ArticlesTab <- f7Tab(
   
   
   f7ExpandableCard(
-    id = "card_3",
-    title = "CARD TITLE",
-    img = "mav2.jpg",
-    htmltools::div(
-      h4("MAJOR HEADLINE"), 
-      "other text", 
-      "\n",
-      h4("OTHER BREAKING"),
-      "\n",
-      "a little more text here",
-      "\n",
-      "something else happened"
-    )
+    id = "draft_recap",
+    title = "Draft Recap",
+    img = "articles/draft.png",
+    draft_text
   ),
   
   f7ExpandableCard(
-    id = "card_2",
-    title = "CARD TITLE",
-    img = "mav_test.jpg",
-    htmltools::div(
-      h4("MAJOR HEADLINE"), 
-      "other text", 
-      "\n",
-      h4("OTHER BREAKING"),
-      "\n",
-      "a little more text here",
-      "\n",
-      "something else happened"
-    )
-  ),
-  
-  f7ExpandableCard(
-    id = "card_1",
-    title = "CARD TITLE",
-    img = "mav2.jpg",
-    art_01
+    id = "week_1",
+    title = "Week 1 Predictions",
+    img = "articles/week1.jpg",
+    week1_text
   )
 )

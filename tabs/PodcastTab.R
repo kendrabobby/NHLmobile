@@ -52,6 +52,90 @@ PodcastTab <- f7Tab(
         url = "spotify:show:7j9CZOPTcoVUVslvqKBu9x"
       )
     )
-  )
+  ),
+  f7Card(
+    f7List(
+      mode = "media",
+      f7ListItem(
+        title = "Blueshirts Breakaway",
+        subtitle = "",
+        media = tags$img(src = "https://pbs.twimg.com/profile_images/1171408709358170113/LXM8_Yk9_400x400.jpg"),
+        right = "Spotify",
+        url = "spotify:show:5agxe3oRVveVWbWegdZ7kV"
+      )
+    )
+  ),
+  f7Card(
+    f7List(
+      mode = "media",
+      f7ListItem(
+        title = "Tip of the Ice-Burgh Podcast",
+        subtitle = "",
+        media = tags$img(src = "https://pbs.twimg.com/profile_images/1243591229838950402/_NUtR3rx.jpg"),
+        right = "Spotify",
+        url = "spotify:show:0xEz2obkC3dpVjLlns2Qgi"
+      )
+    )
+  ),
+  f7Card(
+    f7List(
+      mode = "media",
+      f7ListItem(
+        title = "Locked on Penguins",
+        subtitle = "",
+        media = tags$img(src = "https://stitcher-classic.imgix.net/feedimagesplain600/468437.jpg?w=600&h=600"),
+        right = "Spotify",
+        url = "spotify:show:3W28LAOHF4DqDqgfdygvR1"
+      )
+    )
+  ),
+  f7Card(
+    f7List(
+      mode = "media",
+      f7ListItem(
+        title = "Broad Street Hockey: For Philadelphia Flyers Fans",
+        subtitle = "",
+        media = tags$img(src = "https://pbs.twimg.com/profile_images/1285249937689673728/4jOS1uDQ_400x400.jpg"),
+        right = "Spotify",
+        url = "spotify:show:02cbfkgDsPct3puDfOZFVo"
+      )
+    )
+  ),
+  f7Card(
+    f7List(
+      mode = "media",
+      f7ListItem(
+        title = "Black N' Gold Hockey Podcast",
+        subtitle = "",
+        media = tags$img(src = "https://stitcher-classic.imgix.net/feedimagesplain600/129111.jpg?w=850&h=850&sat=-100"),
+        right = "Spotify",
+        url = "spotify:show:374BdOzVOy5bX7bv9rroC4"
+      )
+    )
+  ),
+  f7Card(
+    f7List(
+      mode = "media",
+      f7ListItem(
+        title = "The Steve Dangle Podcast",
+        subtitle = "",
+        media = tags$img(src = "https://i1.sndcdn.com/avatars-5HCV3fHu7g5uSI9p-GtIpUw-t500x500.jpg"),
+        right = "Spotify",
+        url = "spotify:show:5RqZFUIq4Zp8tmI3LfdT7N"
+      )
+    )
+  ),
+  f7Card(
+    f7List(
+      mode = "media",
+      f7ListItem(
+        title = "Hockey Central",
+        subtitle = "",
+        media = tags$img(src = "https://pbcdn1.podbean.com/imglogo/dir-logo/214582/214582.png"),
+        right = "Spotify",
+        url = "spotify:show:2By1VNdYWdKUjhtcxsHzZM"
+      )
+    )
+  ),
   
 )

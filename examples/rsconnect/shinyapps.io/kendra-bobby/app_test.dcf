@@ -1,0 +1,12 @@
+name: app_test
+title: app_test
+username:
+account: kendra-bobby
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3408018
+bundleId: 3996931
+url: https://kendra-bobby.shinyapps.io/app_test/
+when: 1608126674.66009
+asMultiple: FALSE
+asStatic: FALSE

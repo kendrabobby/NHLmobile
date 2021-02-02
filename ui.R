@@ -36,7 +36,7 @@ f7Page(
           f7Link(src = "https://github.com/kendrabobby/NHLmobile/issues",
                  label = "https://github.com/kendrabobby/NHLmobile/issues",
                  external = TRUE),
-          h6("Developed and maintained by Kendra Bobby")
+          h6("Content by Michael Bucklaw, created and maintained by Kendra Bobby using R package shinyMobile")
           ),
         effect = "cover"
       )

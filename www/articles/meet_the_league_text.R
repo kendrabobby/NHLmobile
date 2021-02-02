@@ -1,7 +1,8 @@
 
 meet_the_league_text <- 
 htmltools::div(
-
+  tags$h3("Managers"),
+  
   tags$h4("Craig"),
   h5("The (God)Father."),
   

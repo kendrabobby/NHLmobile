@@ -10,7 +10,7 @@ ChampsTab <- f7Tab(
     inputId = "champ_chest",
     
     f7AccordionItem(open = FALSE,
-                    title = "Play Kalinka, comrade (2019-20)",   
+                    title = "Play Kalinka, Comrade (2019-20)",   
                     f7Card(
                       "If Strez and Mike ever go to Russia for their annual hockey trips, the
                       Polish Pounder will be ready to start his own red army. After winning a
@@ -41,7 +41,7 @@ ChampsTab <- f7Tab(
     ),
    
     f7AccordionItem(open = FALSE,
-                    title = "EN FUEGO (2018-19)",   
+                    title = "En Fuego (2018-19)",   
                     f7Card(
                       "This Chest, curated specifically for the 2018-19 winner, Travis, is the first iteration 
                       of the new and improved rewards system in the VHL. Featuring a vintage '90's CCM Calgary 

@@ -1,7 +1,14 @@
 ArticlesTab <- f7Tab(
   tabName = "Articles",
   icon = f7Icon("text_quote"),
-  
+
+  f7ExpandableCard(
+    id = "week_6",
+    title = "The Lineup: Week 6",
+    img = "articles/week6.jpg",
+    week6_text
+  ),
+    
   f7ExpandableCard(
     id = "week_4",
     title = "The Lineup: Week 4",

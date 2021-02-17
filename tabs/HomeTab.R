@@ -4,9 +4,9 @@ HomeTab <- f7Tab(
   f7BlockTitle(title = "Featured Article") %>% f7Align(side = "left"),
   f7ExpandableCard(
     id = "card_featured",
-    title = "The Lineup: Week 4",
-    img = "articles/week4.jpg",
-    week4_text
+    title = "The Lineup: Week 6",
+    img = "articles/week6.jpg",
+    week6_text
   ),
   f7Block(
     f7BlockTitle(title = "Season progress") %>% f7Align(side = "left"),

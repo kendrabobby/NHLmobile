@@ -15,6 +15,8 @@ seasonProgress <- function(){
     return(val)
   }
 }
+source("www/articles/week8_text.R")
+source("www/articles/week7_text.R")
 source("www/articles/week6_text.R")
 #Note: Week 5 is skipped
 source("www/articles/week4_text.R")

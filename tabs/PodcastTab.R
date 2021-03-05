@@ -59,7 +59,7 @@ PodcastTab <- f7Tab(
       f7ListItem(
         title = "Blueshirts Breakaway",
         subtitle = "",
-        media = tags$img(src = "https://pbs.twimg.com/profile_images/1171408709358170113/LXM8_Yk9_400x400.jpg"),
+        media = tags$img(src = "https://cdn.theathletic.com/app/uploads/2019/10/11132555/Logo1.png"),
         right = "Spotify",
         url = "spotify:show:5agxe3oRVveVWbWegdZ7kV"
       )
@@ -71,7 +71,7 @@ PodcastTab <- f7Tab(
       f7ListItem(
         title = "Tip of the Ice-Burgh Podcast",
         subtitle = "",
-        media = tags$img(src = "https://pbs.twimg.com/profile_images/1243591229838950402/_NUtR3rx.jpg"),
+        media = tags$img(src = "https://pbs.twimg.com/profile_images/1356430696886263809/XcazNAaW.jpg"),
         right = "Spotify",
         url = "spotify:show:0xEz2obkC3dpVjLlns2Qgi"
       )

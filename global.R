@@ -4,12 +4,12 @@ library(readr)
 library(lubridate)
 
 seasonProgress <- function(){
-  if (today() < as.Date("2022-10-11")){
+  if (today("EST") < as.Date("2022-10-11")){
     return(0)
-  }  else if (today() > as.Date("2023-04-13")){
+  }  else if (today("EST") > as.Date("2023-04-13")){
     return(100)
   }else {
-    curr_time <- today()
+    curr_time <- today("EST")
     val <- 100 * (as.numeric(curr_time - as.Date("2022-10-10")) / as.numeric(as.Date("2023-04-13") - as.Date("2022-10-10")))
     # val <- as.integer(val) / 10
     val <- round(val, 1)

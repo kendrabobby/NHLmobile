@@ -45,9 +45,9 @@ PodcastTab <- f7Tab(
     f7List(
       mode = "media",
       f7ListItem(
-        title = "31 Thoughts: The Podcast",
+        title = "32 Thoughts: The Podcast",
         subtitle = "",
-        media = tags$img(src = "https://podcast.sportsnet.ca/wp-content/uploads/2019/08/31-Thoughts_500.png"),
+        media = tags$img(src = "https://i.scdn.co/image/ab6765630000ba8aca97b66c7b660a73bc659783"),
         right = "Spotify",
         url = "spotify:show:7j9CZOPTcoVUVslvqKBu9x"
       )

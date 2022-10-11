@@ -42,7 +42,7 @@ f7Page(
       )
     ),
     navbar = f7Navbar(
-      title = "VHL - 2020-21 Season",
+      title = "VHL - 2022-23 Season",
       subtitle = "",
       hairline = TRUE,
       shadow = TRUE,

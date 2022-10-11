@@ -4,9 +4,9 @@ HomeTab <- f7Tab(
   f7BlockTitle(title = "Featured Article") %>% f7Align(side = "left"),
   f7ExpandableCard(
     id = "card_featured",
-    title = "The Lineup: Week 8",
-    img = "articles/week8.jpg",
-    week8_text
+    title = "The Lineup: Draft 2022",
+    img = "articles/week0_22.jpg",
+    week0_22_text
   ),
   f7Block(
     f7BlockTitle(title = "Season progress") %>% f7Align(side = "left"),
@@ -23,7 +23,7 @@ HomeTab <- f7Tab(
   ),
   br(),
   
-  f7BlockTitle(title = "League Schedule") %>% f7Align(side = "left"),
+  # f7BlockTitle(title = "League Schedule") %>% f7Align(side = "left"),
   f7Timeline(sides = TRUE, VHL_schedule) %>% f7Align(side = "center")
 
 )

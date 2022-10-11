@@ -1,20 +1,25 @@
 library(shiny)
 library(shinyMobile)
 library(readr)
+library(lubridate)
 
 seasonProgress <- function(){
-  if (Sys.Date() < as.Date("2021-01-13")){
+  if (today() < as.Date("2022-10-11")){
     return(0)
-  }  else if (Sys.Date() > as.Date("2021-05-08")){
+  }  else if (today() > as.Date("2023-04-13")){
     return(100)
   }else {
-    curr_time <- format(as.POSIXct(Sys.time(), origin="1970-01-01",tz="GMT"), tz="America/New_York")
-    val <- 1000 * (as.numeric(as.Date(curr_time) - as.Date("2021-01-12")) / as.numeric(as.Date("2021-05-08") - as.Date("2021-01-13")))
-    val <- as.integer(val) / 10
-    #val <- round(val, 1)
+    curr_time <- today()
+    val <- 100 * (as.numeric(curr_time - as.Date("2022-10-10")) / as.numeric(as.Date("2023-04-13") - as.Date("2022-10-10")))
+    # val <- as.integer(val) / 10
+    val <- round(val, 1)
+    # val <- formatC(val, digits = 1)
     return(val)
   }
 }
+
+source("www/articles/week0_22_text.R")
+source("www/articles/week9_text.R")
 source("www/articles/week8_text.R")
 source("www/articles/week7_text.R")
 source("www/articles/week6_text.R")

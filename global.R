@@ -18,6 +18,7 @@ seasonProgress <- function(){
   }
 }
 
+source("www/articles/week2_22_text.R")
 source("www/articles/week0_22_text.R")
 source("www/articles/week9_text.R")
 source("www/articles/week8_text.R")
